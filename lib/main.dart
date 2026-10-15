@@ -13,8 +13,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Web Application',
       theme: ThemeData(
-        primarySwatch: Colors.deepPurple,
-        scaffoldBackgroundColor: const Color(0xFFF5F3FF),
+        primarySwatch: Colors.green,
+        scaffoldBackgroundColor: const Color(0xFFF1F6F2),
       ),
       home: const WebHomePage(),
     );
@@ -28,7 +28,7 @@ class WebHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: const Color(0xFF588157),
         foregroundColor: Colors.white,
         title: const Text(
           'Flutter Web Application',
@@ -60,7 +60,7 @@ class WebHomePage extends StatelessWidget {
             const Icon(
               Icons.web,
               size: 80,
-              color: Colors.deepPurple,
+              color: Color(0xFF588157),
             ),
             const SizedBox(height: 20),
             const Text(
@@ -68,7 +68,7 @@ class WebHomePage extends StatelessWidget {
               style: TextStyle(
                 fontSize: 26,
                 fontWeight: FontWeight.bold,
-                color: Colors.deepPurple,
+                color: Color(0xFF344E41),
               ),
             ),
             const SizedBox(height: 15),
@@ -84,7 +84,7 @@ class WebHomePage extends StatelessWidget {
             ElevatedButton(
               onPressed: () {},
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.deepPurple,
+                backgroundColor: const Color(0xFF588157),
                 foregroundColor: Colors.white,
                 padding: const EdgeInsets.symmetric(
                   horizontal: 35,
@@ -112,7 +112,7 @@ class WebHomePage extends StatelessWidget {
           borderRadius: BorderRadius.circular(25),
           boxShadow: [
             BoxShadow(
-              color: Colors.deepPurple.withOpacity(0.2),
+              color: const Color(0xFF588157).withOpacity(0.2),
               blurRadius: 15,
               spreadRadius: 3,
             ),
@@ -124,7 +124,7 @@ class WebHomePage extends StatelessWidget {
             const Icon(
               Icons.web,
               size: 100,
-              color: Colors.deepPurple,
+              color: Color(0xFF588157),
             ),
             const SizedBox(height: 20),
             const Text(
@@ -132,7 +132,7 @@ class WebHomePage extends StatelessWidget {
               style: TextStyle(
                 fontSize: 32,
                 fontWeight: FontWeight.bold,
-                color: Colors.deepPurple,
+                color: Color(0xFF344E41),
               ),
             ),
             const SizedBox(height: 15),
@@ -153,7 +153,7 @@ class WebHomePage extends StatelessWidget {
                 style: TextStyle(fontSize: 18),
               ),
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.deepPurple,
+                backgroundColor: const Color(0xFF588157),
                 foregroundColor: Colors.white,
                 padding: const EdgeInsets.symmetric(
                   horizontal: 40,
